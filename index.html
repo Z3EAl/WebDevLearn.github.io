@@ -7,24 +7,71 @@
     <title>Learning HTML</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 style="color: aquamarine;font-size: 60px; text-align: center;">My Landing Page</h1>
-    <p style="font-size: 1.5em;margin: 0 100px 0 100px;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
-    </p>
-    <footer>
+    <header>
+        <a href="#" class="brand">Night City</a>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="darkCity">
+        <img src="resources/img/sky.png" id="sky">
+        <img src="resources/img/stars.png" id="stars">
+        <img src="resources/img/moon.png" id="moon">
+        <img src="resources/img/city-left.png" id="cityLeft">
+        <img src="resources/img/city-right.png" id="cityRightSide">
+        <img src="resources/img/purple-light.png" id="purpleLight">
+        <img src="resources/img/tree.png" id="tree">
+        <img src="resources/img/ground.png" id="ground">
+        <h2 id="text"><span>Welcome To</span><br>Night City</h2>
+        <img src="resources/img/grass.png" id="grass">
+    </section>
+
+    <div class="underGround" id="home">
+        <h2>Parallax Scrolling Website</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Tristique senectus et netus et malesuada. Libero volutpat sed cras ornare arcu. Purus
+            non enim praesent elementum facilisis leo vel fringilla. Tellus rutrum tellus pellentesque eu. Quis
+            hendrerit dolor magna eget est lorem. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras
+            tincidunt lobortis. Urna neque viverra justo nec ultrices dui sapien eget mi. <br><br>Amet facilisis magna
+            etiam
+            tempor orci eu lobortis elementum nibh. Arcu odio ut sem nulla pharetra diam sit amet. Dictum non
+            consectetur a erat nam. Congue eu consequat ac felis donec et odio. Neque ornare aenean euismod elementum
+            nisi. Amet nisl suscipit adipiscing bibendum est. <br><br>At tempor commodo ullamcorper a lacus vestibulum
+            sed arcu
+            non.
+            Leo in vitae turpis massa sed elementum. Tempus quam pellentesque nec nam aliquam sem. Sapien et ligula
+            ullamcorper malesuada proin libero nunc. Arcu risus quis varius quam quisque id. Quis enim lobortis
+            scelerisque fermentum dui. Congue mauris rhoncus aenean vel elit scelerisque mauris. Id consectetur purus ut
+            faucibus pulvinar. Molestie a iaculis at erat pellentesque adipiscing. Risus commodo viverra maecenas
+            accumsan. <br><br>Velit ut tortor pretium viverra suspendisse potenti nullam. Bibendum enim facilisis
+            gravida neque.
+            Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Risus in hendrerit gravida rutrum
+            quisque. Consectetur a erat nam at lectus urna. Sociis natoque penatibus et magnis dis. Bibendum enim
+            facilisis gravida neque convallis a cras semper. Egestas tellus rutrum tellus pellentesque eu
+            tincidunt. Mattis aliquam faucibus purus in massa. <br><br>Ultricies leo integer malesuada nunc. Non enim
+            praesent
+            elementum facilisis leo. Lorem dolor sed viverra ipsum. Volutpat ac tincidunt vitae semper quis lectus nulla
+            at. Ultrices tincidunt arcu non sodales. Adipiscing enim eu turpis egestas pretium aenean pharetra magna.
+            Sed elementum tempus egestas sed sed. <br><br>Ornare arcu dui vivamus arcu felis bibendum. Accumsan in nisl
+            nisi
+            scelerisque eu ultrices vitae auctor eu. Dui sapien eget mi proin sed libero enim sed.
+        </p>
+    </div>
+
+    <!-- <footer>
         <hr>
         <p style="text-align: center" onclick="alert('They dont respond')">Tech Support: whatever@gmail.com</p>
-    </footer>
+    </footer> -->
 
-    <script src="" async defer></script>
+    <script src="script.js" async defer></script>
 </body>
 
 </html>
